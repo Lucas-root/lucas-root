@@ -2,23 +2,34 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+/* O margin top é para consertar o problema que da quando fixo
+o header: os demais elementos ficam abaixo dele*/
 .container-content {
 	width:	927PX;
 	margin:	auto;
 	position: relative;
+	margin-top: 116px;
 }
 
 .container-content img {
 	width: 100%;
 }
 
+/*top e left: 0; é para consertar o efeito que o position: fixed; causa*/
+/* z-index: 9; é para o conteudo do header sobrepor os demais conteudos*/
 header {
 	width: 100%;
 	background-color: white;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 20px
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
 }
 #logo-texto {
 	font-family: 'Merriweather', serif;
@@ -47,9 +58,9 @@ a {
 }
 #menus li a:hover {
 	background-color: #f27507c9;
-	border-radius: 10px;
+	border-radius: 15px;
 	color: #347d00;
-
+	transition-duration: 0.4s
 
 }
 #container-logo {
@@ -76,6 +87,10 @@ a {
 
 #logo-logo {
 	width: 65px
+}
+
+.conteudo-aleatorio {
+	margin-top: 200px
 }
 
 footer {
