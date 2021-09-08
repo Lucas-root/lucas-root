@@ -37,13 +37,21 @@ a {
 
 #menus li {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 2px;
+	padding: 5px;
 }
 #menus li a {
 	font-size: 20px;
 	text-decoration: none;
+	padding: 5px
 }
+#menus li a:hover {
+	background-color: #f27507c9;
+	border-radius: 10px;
+	color: #347d00;
 
+
+}
 #container-logo {
 	display: flex;
 	align-items: center;
