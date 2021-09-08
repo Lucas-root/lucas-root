@@ -68,10 +68,11 @@ a {
 	align-items: center;
 }
 
+/*
 #inicio {
 	color: #3C8C03;
 }
-
+*/
 .texto-header {
 	padding-top: 8px;
 }
@@ -94,5 +95,6 @@ a {
 }
 
 footer {
-	background-color: #606073a6;
+	background-color: #60607373;
+	height: 44px
 }
