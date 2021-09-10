@@ -121,7 +121,9 @@ footer li {
 }
 footer ul {
 	width: 200px;
-	margin-left: 36%;
+	padding-inline-start: 6vw;
+	margin-block-start: 1.8vw;
+	margin-block-end: 1.8vw;
 }	
 footer {
 	background-color: #60607373;
@@ -131,15 +133,18 @@ footer {
 	position: absolute;*/
 }
 footer section {
-	padding: 11px
+	padding: 11px;
 }
 #texto-redes-footer {
 	width: auto;
-	margin-left: 39%;
+	margin-left: 5vw;
 	font-size: 2vw;
 	font-family: 'Roboto', sans-serif;
 	color: #000000b8;
 }
 #creditos {
 	font-size: 1.4vw;
+}
+.conteudo-footer {
+	margin-left: 31.8vw;
 }
