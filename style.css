@@ -114,7 +114,8 @@ footer ul {
 footer {
 	background-color: #60607373;
 	padding: 10px;
-	width: 100%
+	width: 100%;
+	bottom: 0px;
 }
 #texto-redes-footer {
 	width: auto;
