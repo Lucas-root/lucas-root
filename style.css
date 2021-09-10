@@ -48,7 +48,7 @@ header a {
 }
 #logo-texto {
 	font-family: 'Merriweather', serif;
-	font-size: 25px;
+	font-size: 2.4vw;
 	padding-left: 8px;
 	color: #000000bd;
 	text-decoration: none;
@@ -68,7 +68,7 @@ a {
 	padding: 5px;
 }
 #menus li a {
-	font-size: 20px;
+	font-size: 1.9vw;
 	text-decoration: none;
 	padding: 5px
 }
@@ -103,7 +103,7 @@ a {
 }
 
 #logo-logo {
-	width: 65px
+	width: 6.4vw;
 }
 
 .indisponivel {
@@ -114,7 +114,7 @@ a {
 }
 
 footer li img {
-	width: 43px;
+	width: 4vw;
 }
 footer li {
 	display: inline-block;
@@ -136,8 +136,10 @@ footer section {
 #texto-redes-footer {
 	width: auto;
 	margin-left: 39%;
-	font-size: 20px;
+	font-size: 2vw;
 	font-family: 'Roboto', sans-serif;
 	color: #000000b8;
-
+}
+#creditos {
+	font-size: 1.4vw;
 }
