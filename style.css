@@ -8,14 +8,14 @@ html, body {height: 100%}
 	padding-left: 20px;
 	padding-right: 20px;
 	min-height: 100%;
-	margin-top: 27vw;
+	margin-top: 116px;
 	/*position: relative;*/
 }
 
 /* O margin top é para consertar o problema que da quando fixo
 o header: os demais elementos ficam abaixo dele*/
 .container-content {
-	width:	927PX;
+	width: 90.6vw;
 	margin:	auto;
 	position: relative;
 	margin-top: 116px;
@@ -98,7 +98,7 @@ a {
 	color: #3C8C03;
 	right: 2%;
 	top: 38%;
-	font-size: 41px;
+	font-size: 4vw;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
