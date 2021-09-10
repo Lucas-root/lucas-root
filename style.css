@@ -42,6 +42,7 @@ header {
 	border-top: solid;
     border-bottom: solid;
     border-width: 1px;
+    border-color: #66a439;
 }
 header a {
 	text-decoration: none;
@@ -70,7 +71,7 @@ a {
 #menus li a {
 	font-size: 1.9vw;
 	text-decoration: none;
-	padding: 5px
+	padding: 5px;
 }
 #menus li a:hover {
 	background-color: #f27507c9;
