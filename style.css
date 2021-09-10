@@ -1,9 +1,14 @@
 body {
 	margin: 0;
 }
+/*
+html, body {height: 100%}
+*/
 #todo-conteudo {
 	padding-left: 20px;
 	padding-right: 20px;
+	min-height: 100%;
+	position: relative;
 }
 
 /* O margin top é para consertar o problema que da quando fixo
@@ -116,9 +121,12 @@ footer ul {
 }	
 footer {
 	background-color: #60607373;
-	padding: 10px;
 	width: 100%;
 	bottom: 0px;
+	position: absolute;
+}
+footer section {
+	padding: 11px
 }
 #texto-redes-footer {
 	width: auto;
