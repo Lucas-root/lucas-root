@@ -128,7 +128,7 @@ footer li {
 }
 footer ul {
 	width: 200px;
-	padding-inline-start: 6vw;
+	padding-inline-start: 8vw;
 	margin-block-start: 1.8vw;
 	margin-block-end: 1.8vw;
 }	
@@ -143,7 +143,7 @@ footer section {
 }
 #texto-redes-footer {
 	width: auto;
-	margin-left: 5vw;
+	margin-left: 7vw;
 	font-size: 2vw;
 	font-family: 'Roboto', sans-serif;
 	color: #000000b8;
