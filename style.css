@@ -1,5 +1,9 @@
 body {
+	position: relative;
 	margin: 0;
+    min-height: 100vh;
+    padding-bottom: 10vw;
+}
 }
 /*
 html, body {height: 100%}
@@ -132,8 +136,7 @@ footer {
 	background-color: #60607373;
 	width: 100%;
 	bottom: 0px;
-	/*
-	position: absolute;*/
+	position: absolute;
 }
 footer section {
 	padding: 11px;
