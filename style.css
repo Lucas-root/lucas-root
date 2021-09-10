@@ -33,16 +33,17 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 9;
 	border-top: solid;
     border-bottom: solid;
-    border-width: 1px;
-    border-color: #66a439;
+    border-top-width: 0.2vw;
+    border-bottom-width: 0.1vw;
+    border-color: #d16c02;
 }
 header a {
 	text-decoration: none;
