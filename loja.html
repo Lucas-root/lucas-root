@@ -3,6 +3,7 @@
 <head>
 	<title>sobre</title>
 	<link rel="stylesheet" href="https://greenlity.space/style.css">
+	<link rel="stylesheet" href="https://greenlity.space/loja_style.css">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://greenlity.space/icones/favicon_recortado.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -28,7 +29,7 @@
 	<header>
 		<a id='link-logo' href="https://greenlity.space">
 		<div id="container-logo">
-			<img id='logo-logo' src="imagens/logo_vaso.jpg">
+			<img id='logo-logo' src="https://greenlity.space/imagens/logo_vaso.jpg">
 			<div id="logo-texto" class='texto-header'>Greenlity</div>
 		</div>
 		</a>
@@ -42,7 +43,7 @@
 			</ul>
 		</div>
 	</header>
-
+	<!--
 	<section class="container-content">
 	<div>
 	<section class="indisponivel" style="position: relative; margin-left: 26vw;">
@@ -55,28 +56,68 @@
 	</section>
 	</div>
 	</section>
-	<!--
-	<section class="container-content">
+	-->
+	
+	<section class="container-content" style="margin-bottom: 200px" >
 	<div class="itens-main">
-		<div class="produtos">
-			<div>
-				Produto 1: vaso de placa de parede
+		<h1 class="titulo-item">
+				Para deixar sua casa mais verde
+		</h1>
+		<div class="container-produtos">
+			<div class="produtos" id="produto1">
+				<h1>
+					Vaso de planta para pendurar
+				</h1>
+				<div class="imagem-produto" id="img-produto1">
+					<img src="https://greenlity.space/imagens/vaso_parede.png">
+				</div>
+				<div class="preco" id="preco-produto1">
+					R$ 64,99
+				</div>
 			</div>
-			<div>
-				Produto 2: vaso mesa
+			<div class="produtos" id="produto2">
+				<h1>
+					Vaso para mesa
+				</h1>
+				<div class="imagem-produto" id="img-produto2">
+					<img src="https://greenlity.space/imagens/vaso_mesa.jpeg">
+				</div>
+				<div class="preco" id="preco-produto1">
+					R$ 44,99
+				</div>
 			</div>
 		</div>
-		<div class="servicos">
-			<div>
-				Serviço de decoração de interiores
-			</div>
-			<div>
-				Serviço de jardinagem
+
+		<div>	
+			<div class="container-servicos">
+
+				<div>
+					<h1 class="titulo-item-servico">
+						Ajuda para a decoração?
+					</h1>
+					<h2 class="subtitulo-item">
+						Receba a visita de um decorador
+					</h2>
+					<div class="servicos">
+						<div class="imagem-servico">
+							<img src="imagens/servico_decoracao.jpeg">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="servicos">
+						<h1 class="titulo-item-servico">Problemas com o jardim?</h1>
+						<h2 class="subtitulo-item">Contrate uma mão extra</h2>
+						<div class="imagem-servico">
+							<img src="imagens/servico_decoracao2.jpg">
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
 	</section>
-	<!-->
+	
 	</div>
 	<footer>
 		<section>
@@ -115,5 +156,10 @@
 		</div>
 		</section>
 	</footer>
-	<script type="text/javascript" src="https://greenlity.space/script.js"> </script>
+	<script type="text/javascript" src="script.js"> </script>
+	<script type="text/javascript">
+		var todo_conteudo = document.getElementById('todo-conteudo');
+		var marginT = todo_conteudo.style.marginTop;
+		todo_conteudo.style.marginTop = 'calc('+marginT+' + 15px)';
+	</script>
 </html>
