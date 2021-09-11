@@ -15,3 +15,9 @@ container_content.style.marginTop = height_header+'px';
 var height_container_content = container_content.style.offsetHeight;
 var body = document.getElementsByTagName('body')[0];
 body.style.minHeight = 'calc(101vh - '+ height_header + 'px - ' + height_container_content +'px';
+
+
+var foo = document.getElementsByTagName('footer')[0]
+var wi = foo.offsetHeight;
+var bo = document.getElementsByTagName('body')[0];
+bo.style.paddingBottom = wi + 'px';
