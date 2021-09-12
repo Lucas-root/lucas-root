@@ -129,16 +129,18 @@ a {
 }
 
 footer li img {
-	width: 4vw;
+	width: 6vw;
 }
 footer li {
 	display: inline-block;
 }
 footer ul {
-	width: 200px;
-	padding-inline-start: 8vw;
 	margin-block-start: 1.8vw;
 	margin-block-end: 1.8vw;
+	padding-inline-start: 0px;
+	display: flex;
+    align-content: center;
+    justify-content: center;
 }	
 footer {
 	background-color: #60607373;
@@ -151,16 +153,18 @@ footer section {
 }
 #texto-redes-footer {
 	width: auto;
-	margin-left: 7vw;
-	font-size: 2.8rem;
+	font-size: 2.3rem;
 	font-family: 'Roboto', sans-serif;
 	color: #000000b8;
 }
 #creditos {
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 }
 .conteudo-footer {
-	margin-left: 31.8vw;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 

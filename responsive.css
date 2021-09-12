@@ -4,6 +4,19 @@
 	}
 }
 
+@media (max-width: 750px) {
+
+	/*aumentar um pouco o footer*/
+	#texto-redes-footer {
+		font-size: 2.5rem;
+	}
+	#creditos {
+		font-size: 1.8rem;
+	}
+	footer li img {
+	width: 5vh;
+}
+}
 
 @media (max-width: 585px) {
 	#menus {
