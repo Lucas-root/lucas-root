@@ -1,0 +1,102 @@
+@media (max-width: 750px) {
+	html {
+		font-size: 55%
+	}
+}
+
+
+@media (max-width: 585px) {
+	#menus {
+		display: none;
+		} 
+
+	.toggles {
+		width: 40px;
+		height: 30px;		
+	}
+
+	#toggle-one,
+	#toggle-two,
+	#toggle-three {
+		background-color: grey;
+		height: 5px;
+		width: 100%;
+		margin: 6px auto;
+
+		transition-duration: 0.3s;
+	}
+
+	/* full screen */ 
+	.toggle-menu.on	{
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100vw;
+		height: 100vh;
+
+		background-color: orange;
+		transition-duration: 0.3s;
+
+		overflow: hidden;
+	}
+
+	.toggle-menu.on #menus {
+		display: block;
+		text-align: center;
+		height: 85vh;
+		display: flex;
+ 		align-items: center;
+    	justify-content: center;
+    	align-content: center;
+    	height: 85vh;
+	}
+
+	}
+
+	.toggle-menu.on .toggles {
+		margin-left: auto;
+    	padding-top: 2.5vw;
+    	padding-right: 16.3vw;
+	}
+	.toggle-menu.on #menus ul{
+		display: grid;
+		/* resetando para ficar reto */
+		padding-inline-start: 0;
+	}
+
+	.toggle-menu.on #menus li{
+		text-align: center;
+	}
+
+	.toggle-menu.on #menus a:hover {
+		transition-duration: 0.5s;
+		background-color: red;
+		color: black;
+		display: block;
+	}
+
+	.toggle-menu.on #menus a {
+		text-transform: uppercase;
+		font-size: 3rem;
+		line-height: 6rem;
+		transition-duration: 0.5s;
+		display: block;
+	}
+
+	.toggle-menu.on #toggle-one {
+		transform: rotate(45deg) translate(7px, 7px);
+	}
+	.toggle-menu.on #toggle-two {
+		opacity: 0;
+	}
+	.toggle-menu.on #toggle-three {
+		transform: rotate(-45deg) translate(8px, -8px);
+	}
+
+	/* isso não era para estar aqui */
+	.container-produtos {
+		    width: 82vw;
+	}
+}
+

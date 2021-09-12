@@ -1,8 +1,13 @@
+html {
+	font-size: 62.5%;
+}
+
 body {
 	position: relative;
 	margin: 0;
     min-height: 105vh;
     padding-bottom: 10vw;
+    font-size: 1em;
 }
 }
 /*
@@ -22,7 +27,7 @@ o header: os demais elementos ficam abaixo dele*/
 	width: 90.6vw;
 	margin:	auto;
 	position: relative;
-	margin-top: 116px;
+	/*margin-top: 116px;*/
 }
 
 .container-content img {
@@ -54,14 +59,14 @@ header a {
 }
 #logo-texto {
 	font-family: 'Merriweather', serif;
-	font-size: 2.4vw;
+	font-size: 3rem;
 	padding-left: 8px;
 	color: #000000bd;
 	text-decoration: none;
 }
 
 #menus {
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -74,7 +79,7 @@ a {
 	padding: 5px;
 }
 #menus li a {
-	font-size: 1.9vw;
+	font-size: 2.1rem;
 	text-decoration: none;
 	padding: 5px;
 }
@@ -82,7 +87,7 @@ a {
 	background-color: #f27507c9;
 	border-radius: 15px;
 	color: #347d00;
-	transition-duration: 0.4s
+	transition-duration: 0.4s;
 
 }
 #container-logo {
@@ -98,6 +103,9 @@ a {
 .texto-header {
 	margin-block-start: 2vw;
     margin-block-end: 2vw;
+}
+.menu-toggle {
+	
 }
 .img_content {
 	position: absolute;
@@ -117,7 +125,7 @@ a {
 
 }
 .conteudo-aleatorio {
-	margin-top: 200px
+	margin-top: 200px;
 }
 
 footer li img {
@@ -144,13 +152,16 @@ footer section {
 #texto-redes-footer {
 	width: auto;
 	margin-left: 7vw;
-	font-size: 2vw;
+	font-size: 2.8rem;
 	font-family: 'Roboto', sans-serif;
 	color: #000000b8;
 }
 #creditos {
-	font-size: 1.4vw;
+	font-size: 1.8rem;
 }
 .conteudo-footer {
 	margin-left: 31.8vw;
 }
+
+
+
