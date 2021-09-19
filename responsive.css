@@ -31,13 +31,25 @@
 	#toggle-one,
 	#toggle-two,
 	#toggle-three {
-		background-color: grey;
+		background-color: rgb(60, 140, 3);
 		height: 5px;
-		width: 100%;
+		/*width: 100%;*/
 		margin: 6px auto;
 
 		transition-duration: 0.3s;
 	}
+
+	#toggle-one, #toggle-three {
+		width: 32px;
+	}
+	#toggle-two	{
+		width: 100%;
+	}
+
+	.toggles div {
+		border-radius: 10px;
+	}
+
 
 	/* full screen */ 
 	.toggle-menu.on	{
@@ -48,7 +60,7 @@
 		width: 100vw;
 		height: 100vh;
 
-		background-color: orange;
+		background-color: #f59429;
 		transition-duration: 0.3s;
 
 		overflow: hidden;
@@ -91,6 +103,7 @@
 
 	.toggle-menu.on #menus a {
 		text-transform: uppercase;
+		font-weight: 600;
 		font-size: 3rem;
 		line-height: 6rem;
 		transition-duration: 0.5s;
