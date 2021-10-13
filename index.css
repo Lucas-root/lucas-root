@@ -1,0 +1,8 @@
+@media (max-width: 500px){
+	.img_content {
+		font-weight: bold;
+	    right: 0%;
+	    top: 31%;
+	    font-size: 5.5vw;
+	}
+}

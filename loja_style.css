@@ -7,7 +7,8 @@
 
 }
 .titulo-item {
-	font-size: 2rem;
+	font-size: 2.1rem;
+	color: black;
 }
 
 .titulo-item-servico {
@@ -33,8 +34,13 @@
 }
 
 .container-servicos div {
-	margin-bottom: 4vw;
+	margin-bottom: 9vw;
 }
+
+.container-servicos {
+	padding-top: 10vh;
+}
+
 .produtos h1 {
 	font-size: 2rem;
 }
@@ -57,7 +63,9 @@
 }
 
 .subtitulo-item {
-	font-size: 2rem;
+	font-size: 1.7rem;
+	margin-block-start: 0.3em;
+	color: #000000a6;
 }
 
 .titulo-produto {
@@ -66,6 +74,7 @@
 
 .subtitulo-produto {
 	margin-block-start: 0.2em;
+	color: #000000a6;
 }
 
 #produto2 img {
@@ -83,6 +92,15 @@
 	margin: auto;
 }
 
+#servico2 {
+
+}
+
+#inf-final {
+	font-size: 2.1rem;
+	color: black;
+}
+
 @media (max-width: 670px) {
 	.container-produtos {
 		flex-direction: column;
@@ -92,14 +110,31 @@
     	height: 100%;
 	}
 
+	#produto-p2,
+	#produto2 {
+		margin-top: 5vh;
+	}
+
+	.preco {
+		padding-top: 1.5vh;
+	}
+
 	#img-produto-p1, 
 	#img-produto-p2 {
     	width: 65vw;
     	height: 100%;
 	}
 
+	.container-servicos {
+		padding-top: 5.5vh;
+	}	
+
 	.imagem-servico {
 		width: 100%;
+	}
+
+	.mais-informacoes {
+	    padding-top: 1vh;
 	}
 }
 
